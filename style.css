@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5a9367;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.productos-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.productos-container img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #5a9367;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5a9367;
+    color: white;
+}
+
+section {
+    margin: 10px 5px 20px 5px;
+}
+
+.productos-container img {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #5a9367;
+}
+
+#inicio, #productos, #contacto {
+    padding: 20px;
+    border-radius: 10px;
+}
